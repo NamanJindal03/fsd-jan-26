@@ -1,0 +1,98 @@
+
+Opensource??
+
+React-> 
+
+    npm create vite@latest <my-app-name>
+
+    4 pillars -> 
+        Components -> done
+        Props -> done
+        State
+        JSX -> done -> it is a combination of HTML + JS
+            1. More strict than react 
+            js -> {}
+
+    1 file can only do 1 export default
+    1 file can do unlimited named exports
+
+    3 pillars -> 
+        Effects 
+
+    
+
+    SPA -> Single Page Application 
+        ->>>> Means?
+
+        1 single html file 
+
+    Client Side Rendering -> 
+    Server Side Rendering ->
+
+    conditional rendering ->
+
+    Rerender means what? what exactly it does it in?
+
+    What all things can be a prop?
+        1. String 
+        2. Number 
+        3. Primitive and all the non primitive data types can be a prop 
+
+        and in addition to that a function can also be a prop and another component 
+        can also be a prop
+
+    
+    Todo Application-> (important question - react basics (understanding through code ))
+        Features -> 
+            1. Task List Adding 
+            2. Task delete
+            3. Task Complete (show a crossover line)
+
+
+    useEffect
+    useRef
+    useReducer
+        To separate out the business logic from the UI code. 
+
+    SPA and MPA ->     
+        client side rendering and server side rendering -> 
+
+    context Api 
+    Router - private routes
+    optimisations
+
+
+    redux 
+    Pending Topics
+        1. Linux Commands -> done
+            1. mkdir -> make directory
+            2. cd -> change direction
+            3. rmdir
+            4. rm
+            5. flags
+            6. ls -> list
+            7. pwd
+        2. Explain the usecase of key in map ->
+        3. Deeply study the entire react folder structure and files in it
+        4. Hosting -> 
+
+    
+Redux Core vs Redux Toolkit ?
+
+1. Create a store 
+2. Connect the store to our application 
+3. Create slices 
+4. dispatch action 
+5. Use a selector 
+
+createAsyncThunk 
+extraReducers 
+
+
+webpack -> 
+    it is little slow and heavy
+
+    rollup
+    vite 
+    parcel  (easiest but not big company friendly)
+    esbuild

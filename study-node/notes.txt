@@ -1,0 +1,54 @@
+cors -> cross origin resource sharing -> 
+
+this is a security feature that is present in browser ()
+
+what is considered as cross origin? 
+    1. different domain 
+    2. domain vs sub domain 
+    3. different protocal (http vs https)
+    4. different port number 
+
+All of the above are considered as different origin 
+
+Routing 
+MVC
+
+
+Mongo -> 
+
+
+mongoose -> 
+mongo aggregation pipelines -> 
+
+
+1. find out of all the users who are deactivated
+
+3. Average orders placed by the customer -> 
+
+4. Find total number of lcoation in which are users exists -> 
+
+db.customers.aggregate([ {$group: {_id: "$locations"}}, {$count: 'no_of_locations'}])
+
+how many products have audio as their categories
+
+db.products.aggregate([ { $match: {categories: "Audio"}}, { $count: 'no_of_audio_categories'}])
+
+
+
+tell on an average each product is having how many categories
+
+db.products.aggregate([ { $unwind: "$categories"}, {$group: {_id: "$_id", numberOfCategories: {$sum: 1}}}])
+
+
+db.products.aggregate([ { $unwind: "$categories"}, {$group: {_id: "$_id", numberOfCategories: {$sum: 1}}}, { $group: {_id: null, averageNumberOfCategories: {$avg: "$numberOfCategories"}}}])
+
+
+1. $group
+2. $sum 
+3. $avg 
+4. $ min 
+5. $max 
+6. $count 
+7. $unwind
+
+Pagination -> through mongoDB? how?

@@ -1,0 +1,535 @@
+which session we are in? 
+Revision Session -> 
+
+Naman Jindal -> 
+
+"Technology Stack" -> 
+
+
+Intro to web | Frontend Developement | Backend Development | Database Development | Ai
+HTML ->
+CSS -> 
+Javascript -> 
+React -> 
+Node -> 
+Next -> 
+Mongo/mongoose -> 
+SQL -> 
+Git/Github -> 
+
+
+
+----------------------------------
+Php | Laravel -> Ejs -> 
+Vue 
+Docker 
+Kubernetes
+
+Few Simple Guidelines -> 
+1. Delivery Language 
+2. 
+
+Lecture Delivery -> 
+
+small topic -> 
+    5 - 5mins -> 
+
+new topic ->
+
+Big topics -> 50 mins ->
+
+My Expectations from you -> 
+1. Doubt asking and interaction
+2. Offline Videos -> 
+3. Revision factor -> notes | 100% (80 | 90 | 100 | 110)
+4. Try to join always from laptop -> 
+5. Do not miss the live lecture if missed make sure you would have seen the recording
+
+What you can expect from the lectures -> 
+1. covering topics/content present in the offline videos
+2. real world application examples from my career journey and as well as the experiences
+that I have heard from others 
+3. Going beyond and above -> advanced and relational things as well 
+4. Inteview questions ->
+    Topic -> 
+        Important & very important interview as well 
+5. Resolving your concerns from offline videos as well as whatever other things you have
+
+
+Intro to web development -> 
+1. to create a website 
+
+Important elements to create a website? code??
+1. HTML -> structure 
+2. CSS -> structure refinement and design 
+3. JS -> interactable part
+
+Frontend vs Backend (intro)->
+
+Server -> 
+    someone who serves -> 
+    what it serves ? 
+        1. it serves Data
+        2. it serves files 
+        and a lot more??
+
+    but what actually is a server?
+        basic compute machine -> 
+            Harddisk | ssd 
+            Ram 
+            screen (not required) -> optional
+
+    My laptop -> can also be a server 
+
+    How to open the web tools | dev tools ->
+        1. right click -> inspect 
+        2. mac -> option command i | windows -> shift command i -> F12
+
+    CLient Server Architecture -> 
+        very important for interview + fundamentals + this topic will be referenced back 
+        multiple
+
+Next Lecture -> 
+    1. Client server architecture 
+    2. Intro to html and basic tags 
+    3. 1 intermiate tag 
+
+HTML -> 
+    types of tags?
+        paired tags  -> <> </>
+        self closing -> </>
+        un paired -> <>
+
+    2026 -> 
+    paired tags  -> <> </> -> h1, h2, section, p 
+
+    combined ->
+     self closing -> </> -> img, br, hr, 
+        un paired -> <>
+
+    attributes -> **
+
+    Element vs tag?
+
+    Inline vs Block??? ****** in future -> inline-block
+        inline -> input, img, 
+
+        block -> h1, p 
+
+    ip?
+
+
+    Ipv4 and ipv6 -> 
+    2001:db8:85a3:0:0:8a2e:370:7334
+
+    Next Lecture -> 
+        1. list 
+        2. table 
+        3a. get vs post -> (very important -> in some other lecture we will be covering the full extend of it)
+    Website -> how it is visible to you over the net, what are the requirements and a brief intro on how to set that up
+        7. semantic tags
+        
+        3. forms (very important)
+        4. relative and absolute paths (very important)
+        5. Type of images 
+        
+        Next Lecture -> 
+        6. Iframe, video, audio
+        8. usecase of semantic tags
+        9. div and span, how grouping -> relate with css
+        11. meta details understanding 
+        10.css -> 
+
+    Validation placement -> 
+        1. Frontend Validation 
+
+        2. Backend Validation 
+
+    Paths -> 
+        1. Absolute path
+            an absolute path is independent of where you are utilising it. 
+
+        2. Relative path -> in reference to 
+
+    come outside file -> ./
+    one folder above -> ../
+    two folder above -> ../../
+
+    amongst absolute vs relative path which one should a developer be mostly using???
+
+    Domain ->
+    Server ->  hosting platform -> 16gb linux 256gbssd
+
+
+    CSS -> 
+        inline, internal, external
+
+
+    Selectors ->  
+        3 basic selectors -> 
+
+        id 
+        class 
+        tag name
+
+
+    Why red came? 
+        1. Specificty (imp term) of inline tag is greater than internal 
+
+        internal > external -> this is wrong statement -> 
+
+        inline > (internal | external)
+
+        2. 
+            over the selectors -> 
+
+            Specificty? 
+
+            id > class > tag
+
+            4 operators -> 
+                ^
+                ~
+                $
+                *
+
+        3. Box model -> Box sizing 
+            Content Box -> default 
+            Border Box -> 
+
+        4. inline block, inline-block 
+            1. now the element is neither block nor inlint 
+            2. we can have multiple elements in one single line 
+            3. We can use all the restricted properties as well along with it
+
+        display: none can lead to layout shifting -> 
+
+        Positions -> 
+            1. static -> by default 
+            2. relative 
+            3. absolute 
+            4. fixed
+            5. sticky
+
+        When we are dealing with position other than static -> 
+            We get certain superpowers -> superproperties -> 
+                1. top 
+                2. bottom 
+                3. left 
+                4. right 
+                5. z-index
+
+    
+        Absolute -> 
+            1. the element for go its original 2D space, it doesnt 
+            hold on to the space like relative
+
+        
+
+        fixed
+        sticky
+
+        Responsiveness? 
+            We got introduced to a lot of devices -> 
+                Monitor
+                laptop
+                phones -> 
+                    different dimensions 
+                fold phones -> 
+                flip phones -> 
+                tablets -> 
+                watches -> 
+                smart television ->
+                smart fridge -> screens -> 
+                smart scooters -->
+                and much more 
+        2. Proper Units -> %, em, rem, vh, vw
+            
+
+
+
+        Flexbox -> 
+            Parent Properties:
+                display: flex; 
+                flex-direction:
+                    row 
+                    column
+                    row-reverse
+                    column-reverse
+
+                justify-content: main axis
+                    start
+                    end 
+                    center
+                    space-between
+                    space-around
+                    space-evenly
+
+
+                align-items: cross axis
+
+                flex-wrap
+
+                gap: 
+                    row
+                    col
+
+                align-content: 
+
+            Child Properties: 
+                order: 
+                flex-grow: 
+                flex-shrink:
+                align-self
+
+        Grids: 
+            display: grid;
+            grid-template-columns:
+            grid-template-rows:
+
+            grid-row-start:
+            grid-row-end;
+            grid-column-start
+            grid-column-end
+
+
+        min-width -
+        max-width -
+
+
+        1. Flexbox and Grids 
+
+        3. Media Query
+        4. psuedo elements
+
+
+        5, combinatorics
+            - Descent Selector space
+            - child selector >
+            - adjacent selector  + 
+            - general sibling selector ~
+
+
+        6. Transofrms and animations
+            rotation -> 
+            scale 
+            translate 
+            skew
+
+        7. git and github part 1 
+
+                git and github difference?
+
+                why do we use git? 
+                    - team work 
+                    - version control
+
+        -> JS 
+
+        stages to push code to remote ->  
+
+    List all the programming or some programming languages that we are aware? 
+        1. Javascript 
+        2. Java 
+        3. Python 
+        4. C++ 
+        5. C 
+        6. Ruby 
+        7. Rust 
+        8. Go 
+        9. php 
+        10. C# 
+        11. Scala 
+        and many more -----
+
+        JS -> A little beginner friendly to start with 
+            -> extremely in demand (job catering) 
+            -> JS is the only language which can be currently used on the frontend websites-> 
+            -> JS langauge can be used 
+                for frontend 
+                for backend 
+                for VR 
+                for applications (mobile dev -> ios or android both)
+
+        Js definition -> 
+            I am a single threaded asynchornous concurrent language. I have a call stack, a event loop, a callback 2queue and some api
+
+        Ecmascript 17
+        Ecmascript 16 
+        Ecmascript 2022
+
+        Features -> 
+            ES5 ->
+
+            ES6 -> biggest update ->    
+                modern js -> 
+
+        
+
+        -> Why we should prefer git bash over command prompt? will be covered along with linux commands
+
+        console.log() -> 
+            usecase and how to write. 
+
+        Variables -> 
+            3 ->
+                1. Var 
+                2. Let 
+                3. Const 
+
+        Why JS is begineer friendly? 
+
+            Dynamically typed language -> JS
+            Statically typed language -> c++, java 
+
+        Basic Difference between 
+            var, let and const 
+
+        2 types of datatypes -> 
+            Primitive and non primitive -> 
+
+        Primitive -> 
+            number 
+            string 
+            boolean
+            symbol 
+            undefined
+            null
+            Bigint
+
+        Non primitive
+            array -> series of data types -> [2, 10, 40, 70] || ['abcd', 'deng', 1, 2]
+            object -> key value pair of datatypes -> 
+                {
+                    name: 'naman',
+                    age: 10
+                }
+            date 
+
+        
+        == vs === ->
+            == -> type independent
+            === -> type dependent 
+
+        typecasting -> 
+
+        automatic typecasting -> a typecasting which js automatically does -> coercision
+
+        == and === -> 
+            in == before comparing the values JS performs a coercision to make the datatype as same 
+            and then the comparision happens 
+
+            === we do not have any step like coercision 
+
+        == "="  coercision step + ===
+
+    
+    Make a program which tells whether a person is eligible to vote or not on the basis of the age of the person
+
+    let personAge = 2 | 20 | 100;
+
+    'can vote'
+    'cannot vote'
+
+    ternary operators -> 
+
+    truthy and falsy values -> 
+        true | false 
+
+    truthy || falsy -> 
+
+    Falsy -> 
+        0
+        undefined
+        NaN 
+        ""
+        -0 
+        null
+        false
+        0n
+
+    Array -> const studentAgeArray = [20, 21, 22, 10,12,15]
+
+    namanAge = 10;
+    namanSchool = 'xyz'
+    namanClass = 10th
+    namanAdd = 'delhi' -> 20 values -> 
+
+    Object -> const namanBioData = {
+        age:  10,
+        school: 'xyz',
+        class: '10th',
+        address: 'delhi'
+    }
+
+    programming langauge -> 
+        1. that the code should work and should serve my purpose
+        2. maintaince, changes in existing things, upgrading existing features -> old code
+        3. leaving something behind 
+    
+
+    Function -> a template to achieve an atomic functionality 
+     -> Pass by call and pass by reference explain with the help of array and object internal storage structure
+  -> Closures 
+  -> closure applications ( currying )
+   
+
+class -> Shapes -> 
+    -> sides, special feature
+    -> function getNumberOfSides
+
+2 subclass -> rectangle, square 
+    
+    rectangle -> 
+        size 
+
+    Sqaure -> 
+        color
+
+add few things on your own -> 
+
+single threaded, non blocking, asynchronous concurrent programming
+
+TODO:
+  -> HOF with array and objects -> done
+  -> Class keyword and prototyping 
+  -> Async JS 
+  -> Promises and async keyword 
+  -> Dom   cl
+
+  JS is a single threaded, event driven language. 
+    Java, C++ -> multi threaded 
+
+
+1. Core Promise code
+2. Async Keyword 
+3. Promise.all 
+3b. Finally
+4. DOM 
+5. React
+
+
+
+Opensource??
+
+React-> 
+
+    npm create vite@latest <my-app-name>
+
+    4 pillars -> 
+        Components 
+        Props
+        State
+
+    3 pillars -> 
+        Effects 
+
+    
+
+    SPA -> Single Page Application 
+        ->>>> Means?
+
+        1 single html file 
+
+
+    Linux Commands -> 

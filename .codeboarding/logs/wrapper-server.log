@@ -1,0 +1,23 @@
+[stderr] INFO:     Started server process [79967]
+[stderr] INFO:     Waiting for application startup.
+[stderr] INFO:     Application startup complete.
+[stderr] INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56636 - "GET /health HTTP/1.1" 200 OK
+[stderr] INFO:     ('127.0.0.1', 56637) - "WebSocket /ws" [accepted]
+[stderr] 2026-09-13 10:04:26 INFO     [codeboarding_pro.ws.server:258] WebSocket connected: session dbb1965a-084c-4d56-926a-941a920acd8f
+[stderr] INFO:     connection open
+[stderr] 2026-09-13 10:04:26 INFO     [tool_registry.manifest:309] has_required_tools: csharp unavailable (dotnet missing); skipping check
+[stderr] 2026-09-13 10:04:26 INFO     [codeboarding_pro.lsp.bootstrap:56] LSP startup attempt 1/3
+[stderr] 2026-09-13 10:04:26 INFO     [codeboarding_pro.session:183] Session dbb1965a-084c-4d56-926a-941a920acd8f initialized: repo=/Users/namanjindal/Documents/pw/fsd-jan-26, project=fsd-jan-26, output=/Users/namanjindal/Documents/pw/fsd-jan-26/.codeboarding
+[stderr] 2026-09-13 10:04:28 INFO     [static_analyzer.typescript_config_scanner:96] Found 1 TypeScript project(s) in repository (6 total files across all projects)
+[stderr] 2026-09-13 10:04:28 INFO     [static_analyzer:165] Creating engine config for TypeScript at repo root (6 files across 1 tsconfig project(s): study-next)
+[stderr] 2026-09-13 10:04:36 INFO     [static_analyzer:175] Adding 88 family file(s) claimed by no tsconfig
+[stderr] 2026-09-13 10:04:36 INFO     [static_analyzer:299] No Go source files under /Users/namanjindal/Documents/pw/fsd-jan-26; skipping its LSP server.
+[stderr] 2026-09-13 10:04:36 INFO     [static_analyzer:299] No PHP source files under /Users/namanjindal/Documents/pw/fsd-jan-26; skipping its LSP server.
+[stderr] 2026-09-13 10:04:36 INFO     [static_analyzer:299] No Python source files under /Users/namanjindal/Documents/pw/fsd-jan-26; skipping its LSP server.
+[stderr] 2026-09-13 10:04:36 INFO     [static_analyzer:392] Starting engine LSP client for TypeScript at /Users/namanjindal/Documents/pw/fsd-jan-26
+[stderr] 2026-09-13 10:04:36 INFO     [static_analyzer:414] TypeScript LSP start: 0.2s
+[stderr] 2026-09-13 10:04:36 INFO     [codeboarding_pro.file_monitor:106] FileMonitor started for /Users/namanjindal/Documents/pw/fsd-jan-26
+[stderr] 2026-09-13 10:04:36 INFO     [codeboarding_pro.session:202] Session dbb1965a-084c-4d56-926a-941a920acd8f: FileMonitor activated
+[stderr] 2026-09-13 10:04:36 INFO     [codeboarding_pro.session:243] Session dbb1965a-084c-4d56-926a-941a920acd8f: LSP wiring complete
+[stderr] 2026-09-13 10:04:36 INFO     [codeboarding_pro.lsp.bootstrap:67] LSP clients started successfully (attempt 1)

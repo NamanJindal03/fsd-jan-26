@@ -1,0 +1,23 @@
+span{
+    color: red;
+}
+.divydiv{
+    display: none;
+}
+
+.apply-psuedo::first-line{
+    color: purple;
+}
+
+@media (min-width: 800px) {
+   .divydiv{
+    display: block;
+   }
+    span{
+        color: green;
+    }
+}
+
+.abcd ::marker{
+    color: green;
+}
